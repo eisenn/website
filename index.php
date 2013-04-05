@@ -1,5 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <meta name="description" content="Noam D. Eisen - Engineer, Pilot, Inventor" />
+  <meta name="keywords" content="noam eisen" />
+  <title>Noam D. Eisen - Engineer, Pilot, Inventor</title>
+  <style title="General CSS" media="General" type="text/css"></style>
+</head>
 <body style="height: 231px;">
 <div style="text-align: center;"></div>
 <table style="text-align: left; width: 984px; height: 173px;" 0=""
@@ -64,8 +72,7 @@ echo $output[0];
 <small>Content last updated: 04 April 2013</small><br>
 <small>Accessed at 
 <?php
-echo shell_exec("python present_time.py");
-//echo "$output[0]";
+echo shell_exec("python hit_times.py");
 ?>
 <br>
 <br>

@@ -2,4 +2,5 @@
 
 import time
 
-print time.strftime('%I:%M:%S%p on %a, %d %B %Y')
+def now():
+    return time.strftime('%I:%M:%S%p on %a, %d %B %Y')
